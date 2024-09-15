@@ -1,0 +1,13 @@
+name: SepareWorlds
+version: ${project.version}
+main: com.github.happyuky7.separeWorlds.SepareWorlds
+api-version: '1.16'
+authors: [ Happyuky7 ]
+description: SepareWorlds
+website: https://github.com/Happyuky7
+commands:
+
+  separeworlds:
+    description: SepareWorlds command
+    usage: /<command>
+    aliases: [sws, sepworlds]

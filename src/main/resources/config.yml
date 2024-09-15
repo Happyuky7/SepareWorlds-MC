@@ -1,0 +1,128 @@
+
+# Author: https://github.com/Happyuky7/
+# GitHub: https://github.com/Happyuky7/SepareWorlds-MC
+
+# NO CHANGE THE CONFIG VERSION.
+config-version: Alpha-1.0.0
+
+# NO IMPLEMENTED IN THIS VERSION.
+# IN DEVELOPMENT
+language: en_US
+
+data:
+  # Supported data types: yaml, mongodb(in development).
+  # In this version only the yaml data type is supported.
+  type: yaml
+
+  # NO IMPLEMENTED IN THIS VERSION.
+  # IN DEVELOPMENT
+  #mongodb:
+  #  uri: mongodb://localhost:27017
+  #  database: separeworlds
+  #  collection: players
+
+
+worlds:
+  enabled: false
+  config:
+    groups:
+      # RECOMMENDED: No remove the default group.
+      - default:
+          worlds:
+            - world
+            - world_nether
+            - world_the_end
+          options:
+            ender-chest: true
+            inventory: true
+            armor: true
+            offhand: true
+            potion-effects: true
+            food-level: true
+            saturation: true
+            health: true
+            experience: true
+            gamemode: true
+            fly: true
+
+      - otherworld:
+          worlds:
+            - otherworld
+          options:
+            ender-chest: false
+            inventory: false
+            armor: false
+            offhand: false
+            potion-effects: false
+            food-level: false
+            saturation: false
+            health: false
+            experience: false
+            gamemode: false
+            fly: false
+
+worlds-inv-gamemode:
+  enabled: false
+  config:
+    groups:
+      # RECOMMENDED: No remove the default group.
+      - default:
+          worlds:
+            - world
+            - world_nether
+            - world_the_end
+          options:
+            ender-chest: true
+            inventory: true
+            armor: true
+            offhand: true
+            potion-effects: true
+            food-level: true
+            saturation: true
+            health: true
+            experience: true
+            gamemode: true
+            fly: true
+
+      - otherworld:
+          worlds:
+            - otherworld
+          options:
+            ender-chest: false
+            inventory: false
+            armor: false
+            offhand: false
+            potion-effects: false
+            food-level: false
+            saturation: false
+            health: false
+            experience: false
+            gamemode: false
+            fly: false
+
+
+
+# The chat system is optional.
+# Separate Worlds Chat is a chat system that allows you to create chat groups for each world.
+worlds-chat:
+  enabled: false
+  config:
+    groups:
+      - default:
+          worlds:
+            - world
+            - world_nether
+            - world_the_end
+          options:
+            format: "&7[&6World&7] &7{player}&7: &f{message}"
+            range-enabled: false
+            range: 100
+
+      - otherworld:
+          worlds:
+            - otherworld
+          options:
+            format: "&7[&6OtherWorld&7] &7{player}&7: &f{message}"
+            range-enabled: false
+            range: 100
+
