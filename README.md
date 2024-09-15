@@ -43,7 +43,7 @@ Check config file click [here](https://github.com/Happyuky7/SepareWorlds-MC/blob
 
 ## Contributing
 
-- (Happyuky7)[https://github.com/Happyuky7] - Main developer and Author.
+- [Happyuky7](https://github.com/Happyuky7) - Main developer and Author.
 
 ---
 
